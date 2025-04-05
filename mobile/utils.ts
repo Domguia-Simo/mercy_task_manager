@@ -6,6 +6,6 @@ export interface Task{
     status:String
 }
 
-const HOST_NAME = 'http://192.168.1.149:5000'
+const HOST_NAME = 'http://192.168.5.66:5000'
 
 export default HOST_NAME

@@ -99,7 +99,7 @@ const Index =() =>{
     return(
         <React.Fragment>
             <View style={{padding:10}} >
-                <Text style={{fontSize:20 ,fontWeight:'bold'}}>My tasks ({tasks && tasks.length || 0})</Text>
+                <Text style={{fontSize:20 ,fontWeight:'bold'}}>My tasks ({tasks && tasks.length || 0}) -- <TouchableOpacity onPress={()=>setRefresh(prev => !prev)}><Text>refresh</Text></TouchableOpacity> --</Text>
             </View>
             {!loading ?
             <ScrollView  >
