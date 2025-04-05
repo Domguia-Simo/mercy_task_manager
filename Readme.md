@@ -2,6 +2,13 @@
 
 The full stack project for task management app
 
+# Basic functionalities
+- Create task
+- delete task
+- update task
+- get tasks
+
+
 ### Getting started
 # Frontend
 1. first clone the project: git clone github link
